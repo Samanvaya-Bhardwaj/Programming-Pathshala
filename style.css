@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px ;
+    height: 50px;
+    width: 98.5%;
+    align-items: center;
+    border: 2px solid rgb(252, 249, 249);
+}
+.navbar button{
+    height: 30px;
+    width: 150px;
+    background: linear-gradient(93.24deg, #444BAB 0%, #3CA5C2 100%);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.navbar a{
+    text-decoration: none;
+}
+.navbar div:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+.container{
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+.form{
+    border: 0.5px solid rgb(248, 242, 242);
+    border-radius: 20px;
+    width: 500px;
+    height: 430px;
+    margin-top: 30px;
+    background-color: rgb(245, 245, 245);
+}
+.form p{
+    margin-top: 10px;
+}
+.form button{
+    margin-top: 20px;
+        text-align: center;
+        height: 50px;
+        font-weight: 800;
+        font-size: large;
+        width: 480px;
+        background: linear-gradient(91.59deg, #444BAB 1.85%, #3CA5C2 99.69%);
+        ;
+        cursor: pointer;
+        border-radius: 10px;
+        color: white;
+
+    }
+.form input{
+    width: 480px;
+    height: 40px;
+    border-radius: 10px;
+}
+.form p{
+    font-weight: 600;
+    font-size: large;
+    margin-left: 10px;
+}
+.container h1{
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.right button{
+    text-align: center;
+    height: 50px;
+    font-weight: 800;
+    font-size: large;
+    width: 300px;
+    background: linear-gradient(93.24deg, #444BAB 0%, #3CA5C2 100%);
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 10px
+}
+.container2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: aquamarine;
+    height: 60px;
+}
+
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#feature .fe-box{
+    width: 350px;
+    text-align: center;
+    padding: 1px 1px;
+    box-shadow: 10px 10px 20px;
+    border: 1px solid wheat;
+    margin: 15px 0;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+#feature .fe-box:hover{
+box-shadow: 10px 10px 80px;
+}
+#feature .fe-box h6{
+display: inline-block;
+line-height: 1;
+border-radius: 4px;
+background-color: bisque;
+}
+#feature .fe-box img{
+    height: 50%px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#feature h3{
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+}
+#feature div a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+}
+.impact h4{
+    text-align: center;
+    color: rgb(92, 46, 219);
+    margin-top: 40px;
+}
+.impact h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.impact .features{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+.impact .features h2{
+    color: blue;
+    font-size: 30px;
+    margin-bottom: 50px
+}
+.impact .features p{
+    margin-bottom: 40px;
+}
+.univ{
+    display: flex;
+    justify-content: space-around;
+}
+.univ h1{
+    font-size: 30px;
+}
+.univ p{
+    font-size: 20px;
+}
+.hire{
+    display: flex;
+    justify-content: space-around;
+}
+.hire h1{
+    font-size: 30px;
+}
+.hire p{
+    font-size: 20px;
+}
